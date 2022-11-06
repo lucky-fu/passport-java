@@ -52,6 +52,14 @@
 		</dependency>
 
 		<!--mapper-->
+		<!-- mybatis-plus begin -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+		<!-- mybatis-plus end -->
+
 	</dependencies>
 
 	<build>
