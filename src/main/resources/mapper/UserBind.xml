@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.UserBind">
+    <insert id="insert" parameterType="com.example.demo.mapper.UserBind">
+        INSERT INTO USER_BIND(id, user_id,identify_type, identifier, status,extension, modify_time) VALUES(#{id}, #{userId},#{identifyType}, #{identifier}, #{status},#{extension}, #{modifyTime})
+    </insert>
+    <update id="update" parameterType="com.example.demo.mapper.UserBind">
+        UPDATE USER_BIND
+        SET user_id=#{userId}, identify_type=#{identifyType}, identifier=#{identifier}, status=#{status}, extension=#{extension}
+        WHERE id=#{id}
+    </update>
+    <select id="select" parameterType="com.example.demo.mapper.UserBind">
+        SELECT * FROM USER_BIND
+        WHERE id=#{id}
+    </select>
+</mapper>
