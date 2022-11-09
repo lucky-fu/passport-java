@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
 <mapper namespace="com.example.demo.mapper.UserBindMapper">
     <insert id="insert" parameterType="com.example.demo.mapper.UserBindMapper">
         INSERT INTO USER_BIND(id, user_id,identify_type, identifier, status,extension, modify_time) VALUES(#{id}, #{userId},#{identifyType}, #{identifier}, #{status},#{extension}, #{modifyTime})

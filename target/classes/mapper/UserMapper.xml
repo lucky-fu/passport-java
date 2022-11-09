@@ -3,15 +3,15 @@
 
 <mapper namespace="com.example.demo.mapper.UserMapper">
     <insert id="insert" parameterType="com.example.demo.model.User">
-        INSERT INTO USER(id,name, avatar, introduce, status, extension, create_time, modify_time) VALUES(#{id}, #{name}, #{avatar}, #{introduce}, #{status}, #{extension}, #{createTime}, #{modifyTime})
+        INSERT INTO user(id,name, avatar, introduce, status, extension) VALUES(#{id}, #{name}, #{avatar}, #{introduce}, #{status}, #{extension})
     </insert>
     <update id="update" parameterType="com.example.demo.model.User">
-        UPDATE USER
+        UPDATE user
         SET name=#{name}, avatar=#{avatar}, introduce=#{introduce}, status={#status}, extension={#extension}, create_time={#createTime},modify_time={#modfiyTime}
         WHERE id=#{id}
     </update>
     <delete id="delete" parameterType="com.example.demo.model.User">
-        DELETE USER
+        DELETE user
             WHERE id=#{id}
     </delete>
     <select id="select" parameterType="com.example.demo.model.User">

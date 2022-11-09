@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface UserMapper {
-    void insert(User user);
+    Integer insert(User user);
 }

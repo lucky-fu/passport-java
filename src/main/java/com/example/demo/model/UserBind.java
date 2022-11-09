@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Map;
 
 @Data
-public class UserBind {
+public class UserBind implements java.io.Serializable{
     private  Long id;
     private Long userId;
     private Integer identityType;
