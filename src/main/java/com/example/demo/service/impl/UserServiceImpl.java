@@ -12,7 +12,6 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     public Integer Register(User user) {
-        Integer num = userMapper.insert(user);
-        return num;
+        return userMapper.insert(user);
     }
 }
