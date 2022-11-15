@@ -29,6 +29,7 @@ public class UserController {
     @RequestMapping("/api")
     public RestResp api() {
         restTemplate.getForEntity("", String.class);
+        return RestResp.ok();
     }
 
     @PostMapping("/register")
