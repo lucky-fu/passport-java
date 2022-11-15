@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 @RequestMapping("/user")
@@ -17,9 +18,17 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private RestTemplate restTemplate;
+
     @RequestMapping("/hello")
     public RestResp hello() {
         return RestResp.ok();
+    }
+
+    @RequestMapping("/api")
+    public RestResp api() {
+        restTemplate.getForEntity("", String.class);
     }
 
     @PostMapping("/register")

@@ -48,3 +48,10 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: false
+
+logging:
+  level:
+    com.example.demo: debug
+  ROOT: INFO
+  file:
+    name: ./logs/business.log

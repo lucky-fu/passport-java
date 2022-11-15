@@ -5,6 +5,7 @@ import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -12,6 +13,7 @@ public class UserServiceImpl implements UserService {
     private UserMapper userMapper;
 
     public Integer Register(User user) {
+
         return userMapper.insert(user);
     }
 }

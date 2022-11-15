@@ -1,0 +1,6 @@
+2022-11-13 18:12:42,954 - Starting RedisServiceTest using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 14819 (started by fuhaixu in /System/Volumes/Data/data0/www/java/passport-java)
+2022-11-13 18:12:42,955 - No active profile set, falling back to 1 default profile: "default"
+2022-11-13 18:12:43,225 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-13 18:12:43,227 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-11-13 18:12:43,240 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-11-13 18:12:44,020 - Started RedisServiceTest in 1.42 seconds (JVM running for 1.883)
