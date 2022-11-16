@@ -1,10 +1,8 @@
 package com.example.demo.controller;
 
-import com.example.demo.mapper.UserMapper;
 import com.example.demo.model.RestResp;
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

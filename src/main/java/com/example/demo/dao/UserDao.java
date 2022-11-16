@@ -1,4 +1,4 @@
-package com.example.demo.mapper;
+package com.example.demo.dao;
 
 
 import com.example.demo.model.User;
@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Mapper
 @Repository
-public interface UserMapper {
+public interface UserDao {
     Integer insert(User user);
 }
