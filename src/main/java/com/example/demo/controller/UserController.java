@@ -1,9 +1,10 @@
 package com.example.demo.controller;
 
+import entity.RegisterDto;
 import com.example.demo.model.RestResp;
-import com.example.demo.model.User;
 import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,8 +32,8 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public RestResp register(@RequestBody User user) {
-        Integer num = userService.Register(user);
-        return  RestResp.success(num);
+    public RestResp register(@Validated @RequestBody RegisterDto user) {
+        // Integer num = userService.Register(user);
+        return  RestResp.success(1);
     }
 }
