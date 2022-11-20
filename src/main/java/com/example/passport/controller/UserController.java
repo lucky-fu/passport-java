@@ -1,8 +1,9 @@
-package com.example.demo.controller;
+package com.example.passport.controller;
 
-import entity.RegisterDto;
-import com.example.demo.model.RestResp;
-import com.example.demo.service.UserService;
+import com.example.passport.entity.RegisterDTO;
+import com.example.passport.model.RestResp;
+import com.example.passport.service.UserService;
+import com.example.passport.entity.RegisterResultDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,8 +33,15 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public RestResp register(@Validated @RequestBody RegisterDto user) {
-        // Integer num = userService.Register(user);
-        return  RestResp.success(1);
+    public RestResp register(@Validated @RequestBody RegisterDTO registerParam) throws Exception {
+        RegisterResultDTO result = null;
+
+        try {
+            result = userService.Register(registerParam);
+        }catch (Exception e){
+            return RestResp.error(-1, e.getMessage());
+        }
+
+        return  RestResp.success(result);
     }
 }

@@ -1,8 +1,8 @@
-2022-11-13 18:05:53.465  INFO 14244 --- [main] com.example.demo.RedisServiceTest        : Starting RedisServiceTest using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 14244 (started by fuhaixu in /System/Volumes/Data/data0/www/java/passport-java)
-2022-11-13 18:05:53.465 DEBUG 14244 --- [main] com.example.demo.RedisServiceTest        : Running with Spring Boot v2.7.5, Spring v5.3.23
-2022-11-13 18:05:53.466  INFO 14244 --- [main] com.example.demo.RedisServiceTest        : No active profile set, falling back to 1 default profile: "default"
+2022-11-13 18:05:53.465  INFO 14244 --- [main] com.example.passport.RedisServiceTest        : Starting RedisServiceTest using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 14244 (started by fuhaixu in /System/Volumes/Data/data0/www/java/passport-java)
+2022-11-13 18:05:53.465 DEBUG 14244 --- [main] com.example.passport.RedisServiceTest        : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-13 18:05:53.466  INFO 14244 --- [main] com.example.passport.RedisServiceTest        : No active profile set, falling back to 1 default profile: "default"
 2022-11-13 18:05:53.722  INFO 14244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
 2022-11-13 18:05:53.724  INFO 14244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-11-13 18:05:53.734  INFO 14244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
-2022-11-13 18:05:54.506  INFO 14244 --- [main] com.example.demo.RedisServiceTest        : Started RedisServiceTest in 1.182 seconds (JVM running for 1.627)
-2022-11-13 18:05:54.680 DEBUG 14244 --- [main] com.example.demo.RedisServiceTest        : 获取到的redis值为
+2022-11-13 18:05:54.506  INFO 14244 --- [main] com.example.passport.RedisServiceTest        : Started RedisServiceTest in 1.182 seconds (JVM running for 1.627)
+2022-11-13 18:05:54.680 DEBUG 14244 --- [main] com.example.passport.RedisServiceTest        : 获取到的redis值为

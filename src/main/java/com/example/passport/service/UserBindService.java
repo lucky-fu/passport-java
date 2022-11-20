@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.passport.service;
 
 import org.springframework.stereotype.Service;
 

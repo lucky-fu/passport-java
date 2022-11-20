@@ -51,7 +51,7 @@ mybatis-plus:
 
 logging:
   level:
-    com.example.demo: debug
+    com.example.passport: debug
   ROOT: INFO
   file:
     name: ./logs/business.log

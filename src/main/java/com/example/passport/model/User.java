@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.passport.model;
 
 import lombok.Data;
 import java.util.Date;
@@ -11,6 +11,7 @@ public class User implements java.io.Serializable{
     private String avatar = "";
     private String introduce = "";
     private Integer status = 0;
+    private String BindAccountList = "[]";
     private String extension = "{}";
     private Date createTime;
     private Date modifyTime;

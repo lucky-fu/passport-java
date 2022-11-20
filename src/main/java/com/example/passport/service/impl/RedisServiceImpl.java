@@ -1,6 +1,6 @@
-package com.example.demo.service.impl;
+package com.example.passport.service.impl;
 
-import com.example.demo.service.RedisService;
+import com.example.passport.service.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;

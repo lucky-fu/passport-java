@@ -6,7 +6,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field restTemplate in com.example.demo.service.impl.UserServiceImpl required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
+Field restTemplate in com.example.passport.service.impl.UserServiceImpl required a bean of type 'org.springframework.web.client.RestTemplate' that could not be found.
 
 The injection point has the following annotations:
 	- @org.springframework.beans.factory.annotation.Autowired(required=true)
@@ -16,7 +16,7 @@ Action:
 
 Consider defining a bean of type 'org.springframework.web.client.RestTemplate' in your configuration.
 
-2022-11-15 09:05:22,186 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1b8a29df] to prepare test instance [com.example.demo.RedisServiceTest@9c93d16]
+2022-11-15 09:05:22,186 - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1b8a29df] to prepare test instance [com.example.passport.RedisServiceTest@9c93d16]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)

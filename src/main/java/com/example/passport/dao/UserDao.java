@@ -1,12 +1,12 @@
-package com.example.demo.dao;
+package com.example.passport.dao;
 
 
-import com.example.demo.model.User;
+import com.example.passport.model.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 @Mapper
 @Repository
 public interface UserDao {
-    Integer insert(User user);
+    Long insert(User user);
 }
