@@ -8,6 +8,6 @@ import lombok.Data;
 @Builder
 public class RegisterResultDTO {
     @JsonProperty("user_id")
-    private String userId;
+    private Long userId;
     private String token;
 }

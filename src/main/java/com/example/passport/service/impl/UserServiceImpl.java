@@ -30,15 +30,18 @@ public class UserServiceImpl implements UserService {
         switch (param.getRegisterMode()){
             case REGISTER_MODE_REGISTER:
                 user = register(param);
+                break;
             case REGISTER_MODE_BIND:
                 user = bind(convertRegisterToUser(param));
+                break;
             case REGISTER_MODE_REGISTER_AND_BIND:
                 user = registerAndBind(convertRegisterToUser(param));
+                break;
             default:
                 throw new Exception("非法的注册方式");
         }
 
-        return RegisterResultDTO;
+        return RegisterResultDTO.builder().userId(user.getId()).build();
     }
 
     public User register(RegisterDTO param) throws Exception {
@@ -61,7 +64,7 @@ public class UserServiceImpl implements UserService {
     public User insertUser(RegisterDTO param) {
 
         Long userId = userDao.insert(user);
-        param.setUserId(userId);
+        userBind.setUserId(userId);
         userBindDao.insert(userBind);
 
         return user;
