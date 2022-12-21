@@ -1,0 +1,156 @@
+2022-12-19 21:09:43,480 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 36450 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:09:43,484 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:09:43,891 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:09:43,892 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:09:43,906 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:09:44,269 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:09:44,274 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:09:44,274 - Starting service [Tomcat]
+2022-12-19 21:09:44,274 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:09:44,330 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:09:44,330 - Root WebApplicationContext: initialization completed in 811 ms
+2022-12-19 21:10:07,859 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:10:08,242 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:10:08,878 - Started DemoApplication in 25.998 seconds (JVM running for 27.11)
+2022-12-19 21:10:11,129 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:10:11,131 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:10:11,225 - Completed initialization in 93 ms
+2022-12-19 21:13:05,433 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 36718 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:13:05,436 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:13:05,797 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:13:05,799 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:13:05,816 - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:13:06,237 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:13:06,243 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:13:06,244 - Starting service [Tomcat]
+2022-12-19 21:13:06,244 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:13:06,295 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:13:06,296 - Root WebApplicationContext: initialization completed in 817 ms
+2022-12-19 21:13:29,019 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:13:29,391 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:13:29,908 - Started DemoApplication in 24.854 seconds (JVM running for 25.417)
+2022-12-19 21:13:42,551 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:13:42,553 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:13:42,646 - Completed initialization in 92 ms
+2022-12-19 21:18:35,829 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 37107 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:18:35,830 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:18:36,104 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:18:36,106 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:18:36,115 - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:18:36,388 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:18:36,392 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:18:36,392 - Starting service [Tomcat]
+2022-12-19 21:18:36,392 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:18:36,432 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:18:36,432 - Root WebApplicationContext: initialization completed in 581 ms
+2022-12-19 21:19:00,327 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:19:00,691 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:19:02,058 - Started DemoApplication in 26.41 seconds (JVM running for 26.95)
+2022-12-19 21:19:03,947 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:19:03,948 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:19:04,044 - Completed initialization in 94 ms
+2022-12-19 21:23:07,240 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 37497 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:23:07,241 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:23:07,516 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:23:07,517 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:23:07,528 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:23:07,804 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:23:07,808 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:23:07,808 - Starting service [Tomcat]
+2022-12-19 21:23:07,809 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:23:07,850 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:23:07,851 - Root WebApplicationContext: initialization completed in 590 ms
+2022-12-19 21:23:30,157 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:23:30,499 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:23:31,034 - Started DemoApplication in 23.997 seconds (JVM running for 24.394)
+2022-12-19 21:24:47,662 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:24:47,664 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:24:47,757 - Completed initialization in 91 ms
+2022-12-19 21:28:15,679 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 37877 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:28:15,681 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:28:16,001 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:28:16,002 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:28:16,017 - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:28:16,292 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:28:16,296 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:28:16,296 - Starting service [Tomcat]
+2022-12-19 21:28:16,296 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:28:16,357 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:28:16,357 - Root WebApplicationContext: initialization completed in 644 ms
+2022-12-19 21:28:40,195 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:28:40,594 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:28:41,146 - Started DemoApplication in 25.696 seconds (JVM running for 26.294)
+2022-12-19 21:28:58,059 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:28:58,061 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:28:58,154 - Completed initialization in 91 ms
+2022-12-19 21:36:22,353 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 38503 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:36:22,354 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:36:22,618 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:36:22,620 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:36:22,631 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:36:22,902 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:36:22,907 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:36:22,907 - Starting service [Tomcat]
+2022-12-19 21:36:22,907 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:36:22,948 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:36:22,948 - Root WebApplicationContext: initialization completed in 573 ms
+2022-12-19 21:36:46,868 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:36:47,264 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:36:47,858 - Started DemoApplication in 25.7 seconds (JVM running for 26.118)
+2022-12-19 21:36:50,262 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:36:50,263 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:36:50,357 - Completed initialization in 92 ms
+2022-12-19 21:43:53,289 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 39091 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:43:53,290 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:43:53,554 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:43:53,556 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:43:53,567 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:43:53,920 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:43:53,924 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:43:53,924 - Starting service [Tomcat]
+2022-12-19 21:43:53,925 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:43:53,964 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:43:53,965 - Root WebApplicationContext: initialization completed in 654 ms
+2022-12-19 21:44:50,360 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:44:50,759 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:44:51,372 - Started DemoApplication in 58.279 seconds (JVM running for 58.692)
+2022-12-19 21:46:08,694 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:46:08,696 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:46:08,790 - Completed initialization in 92 ms
+2022-12-19 21:46:16,317 - {"method":"GET","url":"http://localhost:8888/user/hello"}
+2022-12-19 21:54:31,479 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 39978 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:54:31,480 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:54:31,749 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:54:31,750 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:54:31,761 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:54:32,117 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:54:32,122 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:54:32,122 - Starting service [Tomcat]
+2022-12-19 21:54:32,122 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:54:32,163 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:54:32,163 - Root WebApplicationContext: initialization completed in 662 ms
+2022-12-19 21:55:24,651 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:55:25,025 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:55:25,665 - Started DemoApplication in 54.383 seconds (JVM running for 54.728)
+2022-12-19 21:55:29,631 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:55:29,633 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:55:29,726 - Completed initialization in 92 ms
+2022-12-19 21:55:35,905 - {"method":"GET","url":"http://localhost:8888/user/hello"}
+2022-12-19 21:56:06,584 - Starting DemoApplication using Java 19.0.1 on fuhaixudeMacBook-Pro.local with PID 40122 (/System/Volumes/Data/data0/www/java/own/passport-java/target/classes started by fuhaixu in /System/Volumes/Data/data0/www/java/own/passport-java)
+2022-12-19 21:56:06,585 - No active profile set, falling back to 1 default profile: "default"
+2022-12-19 21:56:06,851 - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-12-19 21:56:06,853 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-12-19 21:56:06,863 - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-12-19 21:56:07,221 - Tomcat initialized with port(s): 8888 (http)
+2022-12-19 21:56:07,225 - Initializing ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:56:07,225 - Starting service [Tomcat]
+2022-12-19 21:56:07,225 - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-19 21:56:07,265 - Initializing Spring embedded WebApplicationContext
+2022-12-19 21:56:07,265 - Root WebApplicationContext: initialization completed in 662 ms
+2022-12-19 21:56:59,270 - Starting ProtocolHandler ["http-nio-8888"]
+2022-12-19 21:56:59,679 - Tomcat started on port(s): 8888 (http) with context path ''
+2022-12-19 21:57:00,306 - Started DemoApplication in 53.92 seconds (JVM running for 54.29)
+2022-12-19 21:57:27,815 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-19 21:57:27,817 - Initializing Servlet 'dispatcherServlet'
+2022-12-19 21:57:27,914 - Completed initialization in 95 ms
+2022-12-19 21:57:28,919 - {"cost":226,"method":"GET","url":"http://localhost:8888/user/hello"}
